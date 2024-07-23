@@ -16,7 +16,6 @@ elif b>a and b>c:
 else:
     print(c,"is greatest")
 
-
 #3.find sum of all elements in an array
 m=list(map(int,input().split(",")))
 sum=0
