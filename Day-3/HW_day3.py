@@ -1,13 +1,4 @@
-'''
-5)find max element in an array
-6)find 2nd max element in an array
-7)reverse an array without using built in funcions
-8) find the sum of squares of given number
-9)find sum of squares of even and odd digits
-10)check palindrome or not by using while loop
-11)WAP to print first n fibonacci series.'''
-
-'''#1.Find even or odd
+#1.Find even or odd
 n=int(input())
 if(n%2==0):
     print("even")
@@ -23,15 +14,15 @@ if a>b and a>c:
 elif b>a and b>c:
     print(b,"is greatest")
 else:
-    print(c,"is greatest")'''
+    print(c,"is greatest")
 
 
-'''#3.find sum of all elements in an array
+#3.find sum of all elements in an array
 m=list(map(int,input().split(",")))
 sum=0
 for i in m:
     sum+=1
-print(sum)'''
+print(sum)
 
 #4) find peek element in an array
 print("enter elements")
@@ -54,11 +45,16 @@ for i in range(1,n-1):
         print(peek[i],end=" ") 
 
 
-'''#Swap 2 numbers without third variable
-
-
-
 #sum of n natural numbers
 n=int(input("enter any number"))
 sum=n*(n+1)/2
-print("sum of N natural numbers",sum)'''
+print("sum of N natural numbers",sum)
+
+'''
+5)find max element in an array
+6)find 2nd max element in an array
+7)reverse an array without using built in funcions
+8) find the sum of squares of given number
+9)find sum of squares of even and odd digits
+10)check palindrome or not by using while loop
+11)WAP to print first n fibonacci series.'''
